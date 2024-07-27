@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,19 +6,477 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-        <link rel="stylesheet" href="./reset.css" />
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
   <body>
-    <div class="container-xl">
-    <h1>Hello, world!</h1>
-    
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rybak scyf</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html"
+                    >Fishing rods</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./coils.html">coils</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Links
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/">Instagram</a></li>
+                    <li>
+                      <a class="dropdown-item" href="https://x.com/?lang=uk">Twitter</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="https://www.facebook.com/?locale=uk_UA">Facebook</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container-xl">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://img1.goodfon.ru/wallpaper/nbig/c/dd/ryba-rybalka-kryuchok-risunok.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkIMiZqLkkYMp-WXBT7E9IqLPrdWYGFU6QyQ&s"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://immigrant-austria.com/wp-content/uploads/2016/04/15-01-17-austria-fishing-01.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-xl">
+          <div class="row justify-content-start">
+            <div class="col-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmzppnKa32423nu8t_wdL5Rm6S5_IXmrwQ2w&s"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bolognese fishing rod</h5>
+                  <p class="card-text">
+                    used for fishing in wiring, the fishing points will be
+                    different. For this, the simplest and lightest reel is
+                    installed on it. Now you can control the gear in a wider
+                    range, change the length of the line, release the hook with
+                    the bait at some distance, fish in deeper areas. The fishing
+                    depth is usually limited by the length of the rod, since the
+                    classic Bolognese rig uses a non-slip float. But for
+                    fighting large fish
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    10$
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://cdn11.bigcommerce.com/s-palssl390t/images/stencil/800w/products/3430/5365/daiwa-pso501ulfs-presso-ultralight-spinning-rod__78706.1696738148.1280.1280.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ultralight spinning</h5>
+                  <p class="card-text">
+                    This is the lightest type of spinning rod, which is usually
+                    used for catching small fish. It has a length of 1.5 to 2.1
+                    meters and is usually used with a line that has a thickness
+                    of 2 to 6 pounds.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    10$
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsaiqhfnx9yZYJRBCVxprRICxMyh7Tm01_YQ&s"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Match rod</h5>
+                  <p class="card-text">
+                    This rod is equipped with a light spinning reel with an
+                    increased winding speed, which allows you to manipulate the
+                    equipment very quickly, and if necessary, catch very large
+                    trophies, while using thin lines and small hooks. The float
+                    should be clearly visible and have a streamlined shape for
+                    long-distance casting.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    10$
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://activeweekend.ua/image/data/Ribalka/UDILISHA/013985/013985-2.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Medium spinning</h5>
+                  <p class="card-text">
+                    This is a versatile type of spinning rod that can be used to
+                    catch most types of fish. It has a length of 2.1 to 3.0
+                    meters and is usually used with a line that has a thickness
+                    of 6 to 12 pounds.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    10$
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-end">
+            <div class="col-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWh3kWFkF4u_HwlrQJ-cI_J8l5llAIEoHuOw&s"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Plug rod</h5>
+                  <p class="card-text">
+                    This is a special fishing tool, previously available only to
+                    sport fishermen, it allows fishing with a dead tackle at a
+                    long distance, without using a reel. At the same time, very
+                    precise baiting is practiced, for this there are special
+                    baiting scoops. The rod itself is relatively heavy, this is
+                    also important to remember, to fish with it you need to have
+                    some skill.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    10$
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://images.prom.ua/5127455772_w640_h640_spinning-medium-heavy.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Heavy spinning</h5>
+                  <p class="card-text">
+                    This is the most powerful type of spinning rod and is
+                    usually used for catching large fish. It has a length of 2.4
+                    to 3.6 meters and is usually used with a line that is 10 to
+                    20 pounds thick.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    10$
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container-xl">
+          <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Types of fishing rods</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+              </li>
+            </ul>
+          </nav>
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#navbar-example2"
+            data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true"
+            class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+            tabindex="0"
+          >
+            <h4 id="scrollspyHeading1">Float rod</h4>
+            <p>
+              one of the simplest fishing tackles, which is why it is so
+              widespread. A float rod consists of a rod, a fishing line with a
+              float, a sinker, and a hook with bait attached to it. The bait is
+              cast into the water using the rod. The behavior of the float
+              (bite) determines the moment when the fish holds the bait in its
+              mouth. When there is a bite, a hook is set - a small sharp
+              movement of the rod. The hooked fish is pulled out onto the shore.
+              A float rod can be used for fishing close to the angler (winter
+              fishing, fishing from a boat, from bridges, etc.), at a distance
+              of twice the length of the rod (sport fishing), at a distance many
+              times greater than the length of the rod (long-distance casting).
+              A float rod can be used to fish any point in a body of water: from
+              the surface of the water to the bottom and from the shore to a
+              distance of tens of meters.
+            </p>
+            <h4 id="scrollspyHeading2">Spinning</h4>
+            <p>
+              sports tackle for forkfish using artificial and natural materials,
+              as well as a method for forkfishing for additional spinning. The
+              fork lies in the cast bait near the water body and its wire. As a
+              rule, you catch fish using spinning. The spinning rod with the
+              spool will stiffen like the bottom of the rod (bottom, dump) when
+              thrown onto a large stand of supporting equipment. It is
+              especially useful when fishing from a forest, from a bank
+              overgrown with grass or chagarb.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="content">
+      <div class="container-fluid">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </footer>
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Modal title
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
